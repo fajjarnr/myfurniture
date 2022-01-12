@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <title>Furniture</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark fixed-top py-3">
+        <div class="container">
+          <a class="navbar-brand" href="#"><span>MY</span>FURNITURE</a>
+        <i class='bx bx-menu-alt-right navbar-toggler text-white fs-1 me-2'
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"></i>
+        <div
+            class="collapse navbar-collapse align-items-center"
+            id="navbarNav"
+          >
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link mx-3 active" aria-current="page" href="#"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-3" href="#service">Service</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-3" href="#products">Product</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-3" href="#blog">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-3" href="#contact">Contact us</a>
+              </li>
+            </ul>
+            <div class="icon-home mt-4 mt-lg-0">
+              <a href="/">
+                <i class="bx bx-user"></i>
+              </a>
+              <a href="/">
+                <i class="bx bxs-shopping-bag ms-3"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+    <!-- Home -->
+    <section class="home" id="home">
+      <div class="container">
+        <div class="row">
+          <div
+            class="col-lg-6 d-lg-flex flex-lg-column justify-content-lg-end content-left"
+          >
+            <h1 class="heading">
+              Make Your Interior More Modern and Minimalist
+            </h1>
+            <p class="sub-heading">
+              There are several product variants that you can choose, both local
+              and foreign brands
+            </p>
+            <div class="btn-home mt-5">
+              <a href="#" class="btn btn-buy py-2 px-3 px-lg-4 py-lg-3"
+                >Buy Now</a
+              >
+              <a href="#" class="btn btn-learn ms-3 px-lg-4 py-lg-3"
+                >Learn More</a
+              >
+            </div>
+          </div>
+          <div class="col-lg-6 position-relative d-none d-lg-block">
+            <img
+              src="images/home-img.png"
+              alt="home images"
+              class="img-fluid position-absolute"
+            />
+            <img
+              src="images/jam.png"
+              alt="jam"
+              class="position-absolute img-jam top-0"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Service -->
+    <section class="service section-margin" id="service">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center">
+            <h2 class="heading">Our Services</h2>
+            <p class="sub-heading text-black">
+              We provide quality and comfortable interior fittings
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4">
+            <div
+              class="card-service d-flex justify-content-between align-items-center p-4"
+            >
+              <div class="detail text-white">
+                <p class="label">Minimal Design</p>
+                <h3 class="heading">Classic Softchair</h3>
+                <div class="btn-service btn mt-4">
+                  <a href="#"><i class="bx bxs-shopping-bag"></i> Shop</a>
+                </div>
+              </div>
+              <div class="img-service">
+                <img src="images/kursi-1.png" alt="kursi-1" />
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 my-3 my-lg-0">
+            <div
+              class="card-service d-flex justify-content-between align-items-center p-4"
+            >
+              <div class="detail text-white">
+                <p class="label">Minimal Design</p>
+                <h3 class="heading">Elegant Simplechair</h3>
+                <div class="btn-service btn mt-4">
+                  <a href="#"><i class="bx bxs-shopping-bag"></i> Shop</a>
+                </div>
+              </div>
+              <div class="img-service">
+                <img src="images/kursi-2.png" alt="kursi-1" />
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div
+              class="card-service d-flex justify-content-between align-items-center p-4"
+            >
+              <div class="detail text-white">
+                <p class="label">Minimal Design</p>
+                <h3 class="heading">Comfort chair</h3>
+                <div class="btn-service btn mt-4">
+                  <a href="#"><i class="bx bxs-shopping-bag"></i> Shop</a>
+                </div>
+              </div>
+              <div class="img-service">
+                <img src="images/kursi-3.png" alt="kursi-1" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Banner -->
+    <section class="banner section-margin">
+      <div class="container pt-5">
+        <div class="row text-white">
+          <div class="col-lg-6">
+            <p class="label">Black Friday</p>
+            <h3 class="heading">Sale Up To <span>50%</span> Off</h3>
+            <a href="#" class="btn btn-banner mt-4">Shop Now</a>
+          </div>
+          <div class="col-lg-6">
+            <img src="images/banner.png" alt="banner" class="img-fluid" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Products -->
+    <section class="section-margin products pt-md-5 pt-lg-0" id="products">
+      <div class="container">
+        <div class="row">
+          <div class="col text-center">
+            <h1 class="heading">Our Product</h1>
+            <p class="sub-title">Available for all your needs</p>
+          </div>
+        </div>
+        <div class="row mt-4">
+          <div class="col-lg-6 popular">
+            <h3 class="heading2">Popular Categories</h3>
+            <div class="toggle-slider d-flex justify-content-end">
+              <i class="bx bxs-chevron-left-circle"></i
+              ><i class="bx bxs-chevron-right-circle"></i>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-4 product-popular">
+          <div class="col">
+            <div class="swiper mySwiperPopular">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide card-product">
+                  <div class="img-box rounded-3 d-flex justify-content-center align-items-center p-4">
+                    <img src="images/kursi-1.png" alt="product" class="img-fluid" />
+                  </div>
+                  <div class="detail-product mt-3 d-flex justify-content-between">
+                    <div class="info text-center">
+                      <p>Chair</p>
+                      <span>30 product</span>
+                    </div>
+                    <a href="#"><i class='bx bx-shopping-bag' ></i></i></a>
+                  </div>
+                </div>
+                <div class="swiper-slide card-product">
+                  <div class="img-box rounded-3 d-flex justify-content-center align-items-center p-4">
+                    <img src="images/desk.png" alt="product" class="img-fluid" />
+                  </div>
+                  <div class="detail-product mt-3 d-flex justify-content-between">
+                    <div class="info text-center">
+                      <p>Desk</p>
+                      <span>30 product</span>
+                    </div>
+                    <a href="#"><i class='bx bx-shopping-bag' ></i></i></a>
+                  </div>
+                </div>
+                <div class="swiper-slide card-product">
+                  <div class="img-box rounded-3 d-flex justify-content-center align-items-center p-4">
+                    <img src="images/lamp.png" alt="product" class="img-fluid" />
+                  </div>
+                  <div class="detail-product mt-3 d-flex justify-content-between">
+                    <div class="info text-center">
+                      <p>Lamp</p>
+                      <span>30 product</span>
+                    </div>
+                    <a href="#"><i class='bx bx-shopping-bag' ></i></i></a>
+                  </div>
+                </div>
+                <div class="swiper-slide card-product">
+                  <div class="img-box rounded-3 d-flex justify-content-center align-items-center p-4">
+                    <img src="images/home-img.png" alt="product" class="img-fluid" />
+                  </div>
+                  <div class="detail-product mt-3 d-flex justify-content-between">
+                    <div class="info text-center">
+                      <p>Sofa</p>
+                      <span>30 product</span>
+                    </div>
+                    <a href="#"><i class='bx bx-shopping-bag' ></i></i></a>
+                  </div>
+                </div>
+                <div class="swiper-slide card-product">
+                  <div class="img-box rounded-3 d-flex justify-content-center align-items-center p-4">
+                    <img src="images/home-img.png" alt="product" class="img-fluid" />
+                  </div>
+                  <div class="detail-product mt-3 d-flex justify-content-between">
+                    <div class="info text-center">
+                      <p>Sofa</p>
+                      <span>30 product</span>
+                    </div>
+                    <a href="#"><i class='bx bx-shopping-bag' ></i></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row my-5">
+          <div class="col">
+            <h3 class="heading2">New Arrival Product</h3>
+          </div>
+        </div>
+        <div class="row my-3">
+          <div class="col-lg-3 col-md-6 mb-3">
+            <div class="card-arrival">
+              <div class="card-header position-relative">
+                <img src="images/kursi-2.png" class="img-fluid w-50 d-block mx-auto">
+                <i class='bx bxs-heart'></i>
+              </div>
+              <div class="card-body">
+                <h6>Chair Minimalist</h6>
+                <div class="star">
+                  <i class='bx bxs-star'></i>
+                  <i class='bx bxs-star'></i>
+                  <i class='bx bxs-star'></i>
+                  <i class='bx bxs-star'></i>
+                  <i class='bx bxs-star'></i>
+                </div>
+                <div class="d-flex justify-content-between align-items-center position-relative harga">
+                  <p class="heading2">$600.00</p>
+                  <a href="#"><i class='bx bx-shopping-bag'></i></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-3">
+            <div class="card-arrival">
+              <div class="card-header position-relative">
+                <img src="images/kursi-2.png" class="img-fluid w-50 d-block mx-auto">
+                <i class='bx bx-heart' ></i>
+              </div>
+              <div class="card-body">
+                <h6>Chair Minimalist</h6>
+                <div class="star">
+                  <i class='bx bxs-star'></i>
+                  <i class='bx bxs-star'></i>
+                  <i class='bx bxs-star'></i>
+                  <i class='bx bxs-star'></i>
+                  <i class='bx bxs-star'></i>
+                </div>
+                <div class="d-flex justify-content-between align-items-center position-relative harga">
+                  <p class="heading2">$600.00</p>
+                  <a href="#"><i class='bx bx-shopping-bag'></i></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-3">
+            <div class="card-arrival">
+              <div class="card-header position-relative">
+                <img src="images/kursi-2.png" class="img-fluid w-50 d-block mx-auto">
+                <i class='bx bx-heart'></i>
+              </div>
+              <div class="card-body">
+                <h6>Chair Minimalist</h6>
+                <div class="star">
+                  <i class='bx bxs-star'></i>
+                  <i class='bx bxs-star'></i>
+                  <i class='bx bxs-star'></i>
+                  <i class='bx bxs-star'></i>
+                  <i class='bx bxs-star'></i>
+                </div>
+                <div class="d-flex justify-content-between align-items-center position-relative harga">
+                  <p class="heading2">$600.00</p>
+                  <a href="#"><i class='bx bx-shopping-bag'></i></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-3">
+            <div class="card-arrival">
+              <div class="card-header position-relative">
+                <img src="images/kursi-2.png" class="img-fluid w-50 d-block mx-auto">
+                <i class='bx bx-heart'></i>
+              </div>
+              <div class="card-body">
+                <h6>Chair Minimalist</h6>
+                <div class="star">
+                  <i class='bx bxs-star'></i>
+                  <i class='bx bxs-star'></i>
+                  <i class='bx bxs-star'></i>
+                  <i class='bx bxs-star'></i>
+                  <i class='bx bxs-star'></i>
+                </div>
+                <div class="d-flex justify-content-between align-items-center position-relative harga">
+                  <p class="heading2">$600.00</p>
+                  <a href="#"><i class='bx bx-shopping-bag'></i></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row my-3">
+          <div class="col-lg-3 col-md-6 mb-3">
+            <div class="card-arrival">
+              <div class="card-header position-relative">
+                <img src="images/kursi-2.png" class="img-fluid w-50 d-block mx-auto">
+                <i class='bx bxs-heart'></i>
+              </div>
+              <div class="card-body">
+                <h6>Chair Minimalist</h6>
+                <div class="star">
+                  <i class='bx bxs-star'></i>
+                  <i class='bx bxs-star'></i>
+                  <i class='bx bxs-star'></i>
+                  <i class='bx bxs-star'></i>
+                  <i class='bx bxs-star'></i>
+                </div>
+                <div class="d-flex justify-content-between align-items-center position-relative harga">
+                  <p class="heading2">$600.00</p>
+                  <a href="#"><i class='bx bx-shopping-bag'></i></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-3">
+            <div class="card-arrival">
+              <div class="card-header position-relative">
+                <img src="images/kursi-2.png" class="img-fluid w-50 d-block mx-auto">
+                <i class='bx bx-heart' ></i>
+              </div>
+              <div class="card-body">
+                <h6>Chair Minimalist</h6>
+                <div class="star">
+                  <i class='bx bxs-star'></i>
+                  <i class='bx bxs-star'></i>
+                  <i class='bx bxs-star'></i>
+                  <i class='bx bxs-star'></i>
+                  <i class='bx bxs-star'></i>
+                </div>
+                <div class="d-flex justify-content-between align-items-center position-relative harga">
+                  <p class="heading2">$600.00</p>
+                  <a href="#"><i class='bx bx-shopping-bag'></i></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-3">
+            <div class="card-arrival">
+              <div class="card-header position-relative">
+                <img src="images/kursi-2.png" class="img-fluid w-50 d-block mx-auto">
+                <i class='bx bx-heart'></i>
+              </div>
+              <div class="card-body">
+                <h6>Chair Minimalist</h6>
+                <div class="star">
+                  <i class='bx bxs-star'></i>
+                  <i class='bx bxs-star'></i>
+                  <i class='bx bxs-star'></i>
+                  <i class='bx bxs-star'></i>
+                  <i class='bx bxs-star'></i>
+                </div>
+                <div class="d-flex justify-content-between align-items-center position-relative harga">
+                  <p class="heading2">$600.00</p>
+                  <a href="#"><i class='bx bx-shopping-bag'></i></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-3">
+            <div class="card-arrival">
+              <div class="card-header position-relative">
+                <img src="images/kursi-2.png" class="img-fluid w-50 d-block mx-auto">
+                <i class='bx bx-heart'></i>
+              </div>
+              <div class="card-body">
+                <h6>Chair Minimalist</h6>
+                <div class="star">
+                  <i class='bx bxs-star'></i>
+                  <i class='bx bxs-star'></i>
+                  <i class='bx bxs-star'></i>
+                  <i class='bx bxs-star'></i>
+                  <i class='bx bxs-star'></i>
+                </div>
+                <div class="d-flex justify-content-between align-items-center position-relative harga">
+                  <p class="heading2">$600.00</p>
+                  <a href="#"><i class='bx bx-shopping-bag'></i></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <button class="btn button-shop d-block mx-auto ">
+              Go Shop For view More
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-margin">
+      <div class="container px-4">
+        <div class="row">
+          <div class="col-lg-6 col-md-6 my-1">
+            <div class="banner2 p-4 d-flex align-items-center justify-content-between">
+              <div class="banner2-info w-50">
+                <p class="text-white">Hot Deal</p>
+                <h3 class="heading text-white">Sofa Premium comfort</h3>
+                <p class="heading2">$500.00</p>
+              </div>
+              <div class="banner2-img">
+                <img src="images/kursi-3.png" alt="">
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 my-1">
+            <div class="banner2 p-4 d-flex align-items-center justify-content-between">
+              <div class="banner2-info w-50">
+                <p class="text-white">Hot Deal</p>
+                <h3 class="heading text-white">Sofa Premium comfort</h3>
+                <p class="heading2">$500.00</p>
+              </div>
+              <div class="banner2-img">
+                <img src="images/kursi-3.png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-margin" id="blog">
+      <div class="container">
+        <div class="row">
+          <div class="col text-center">
+            <h1 class="heading">Latest Blog</h1>
+            <p>we provide a variety of interesting information about the interior</p>
+          </div>
+        </div>
+        <div class="row blog">
+          <div class="col">
+            <div class="swiper mySwiperBlog">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide card-blog">
+                  <div class="card">
+                    <div class="card-header-blog">
+                      <img src="images/blog.png" alt="" class="w-100">
+                    </div>
+                    <div class="card-body">
+                      <h2 class="heading2">How To Make A Room Look Neat</h2>
+                      <span>22 November 2021</span>
+                      <p>Lorem ipsum dolor sit amet, 
+                        consectetur adipiscing elit.....</p>
+                        <a href="#" class="btn btn-primary">Read more</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide card-blog">
+                  <div class="card">
+                    <div class="card-header-blog">
+                      <img src="images/blog.png" alt="" class="w-100">
+                    </div>
+                    <div class="card-body">
+                      <h2 class="heading2">How To Make A Room Look Neat</h2>
+                      <span>22 November 2021</span>
+                      <p>Lorem ipsum dolor sit amet, 
+                        consectetur adipiscing elit.....</p>
+                        <a href="#" class="btn btn-primary">Read more</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide card-blog">
+                  <div class="card">
+                    <div class="card-header-blog">
+                      <img src="images/blog.png" alt="" class="w-100">
+                    </div>
+                    <div class="card-body">
+                      <h2 class="heading2">How To Make A Room Look Neat</h2>
+                      <span>22 November 2021</span>
+                      <p>Lorem ipsum dolor sit amet, 
+                        consectetur adipiscing elit.....</p>
+                        <a href="#" class="btn btn-primary">Read more</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide card-blog">
+                  <div class="card">
+                    <div class="card-header-blog">
+                      <img src="images/blog.png" alt="" class="w-100">
+                    </div>
+                    <div class="card-body">
+                      <h2 class="heading2">How To Make A Room Look Neat</h2>
+                      <span>22 November 2021</span>
+                      <p>Lorem ipsum dolor sit amet, 
+                        consectetur adipiscing elit.....</p>
+                        <a href="#" class="btn btn-primary">Read more</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-margin" id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col text-center">
+            <h1 class="heading">Contact Us</h1>
+            <p>we serve you all the time</p>
+          </div>
+        </div>
+        <div class="row mt-5 d-flex align-items-center">
+          <div class="col-lg-6 col-md-6 my-2">
+            <img src="images/contact.png" alt="" class="img-fluid">
+          </div>
+          <div class="col-lg-6 col-md-6 my-2">
+            <form action="">
+              <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Full Name</label>
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="full name">
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary w-100">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+    <footer class="section-margin">
+      <div class="container">
+        <div class="row pt-5 d-flex align-items-center">
+          <div class="col-lg-4">
+            <h3 class="heading"><span>MY</span>FURNITURE</h3>
+            <p>help@iplant.com</p>
+            <p>+62852738738722</p>
+            <div class="social">
+              <i class='bx bxl-whatsapp' ></i>
+              <i class='bx bxl-instagram-alt' ></i>
+              <i class='bx bxl-facebook-circle' ></i>
+            </div>
+          </div>
+          <div class="col-lg-8">
+            <div class="row">
+              <div class="col-lg-3">
+                <h6>Service</h6>
+                <div class="footer-link">
+                  <a href="#" class="nav-link">House Plant</a>
+                  <a href="#" class="nav-link">Garden Plant</a>
+                  <a href="#" class="nav-link">Vase</a>
+                  <a href="#" class="nav-link">Fertilizer</a>
+                </div>
+              </div> 
+              <div class="col-lg-3">
+                <h6>Information</h6>
+                <div class="footer-link">
+                  <a href="#" class="nav-link">Office Hours</a>
+                  <a href="#" class="nav-link">Requirements</a>
+                  <a href="#" class="nav-link">About us</a>
+                </div>
+              </div>
+              <div class="col-lg-3">
+                <h6>Helpfull Link</h6>
+                <div class="footer-link">
+                  <a href="#" class="nav-link">Service</a>
+                  <a href="#" class="nav-link">Support</a>
+                  <a href="#" class="nav-link">Terms & Condition</a>
+                  <a href="#" class="nav-link">Privacy Policy</a>
+                </div>
+              </div>
+            <div class="col-lg-3">
+              <h6>Address</h6>
+              <p>Jl Gatot Subroto
+                No. 123 Blok. A23
+                Malang, Jawa Timur</p>
+                <a href="#" class="nav-link">Google Maps</a>
+            </div>
+            </div>
+          </div>
+        </div>
+        <div class="row text-center mt-5">
+          <p>&copy; Copyright 2021 All Right Reserve | Built by Fajar Nur Rohman</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    
+    <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"
+    ></script>
+    
+    <script src="script.js"></script>
+  </body>
+</html>
