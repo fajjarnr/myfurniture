@@ -14,4 +14,14 @@ var swiperBlog = new Swiper('.mySwiperBlog', {
   centeredSlides: false,
   slidesPerView: 'auto',
   spaceBetween: 20,
+  pagination: {
+    el: '.swiper-pagination',
+  },
+  autoplay: {
+    delay: 2500,
+    disableOnInteraction: false,
+  },
 });
+
+// AOS
+AOS.init();
